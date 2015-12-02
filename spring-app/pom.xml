@@ -219,7 +219,7 @@
 	</dependencyManagement>
 
 	<build>
-		<defaultGoal>clean install test tomcat7:redeploy</defaultGoal>
+		<defaultGoal>clean install tomcat7:redeploy</defaultGoal>
 		<plugins>
 
 			<plugin>
