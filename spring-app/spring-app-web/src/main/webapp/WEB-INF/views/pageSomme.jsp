@@ -11,7 +11,7 @@
 <title>Addition arithmétique</title>
 </head>
 <body>
-
+<h1>heloo</h1>
 <c:url var="calculAction" value="/somme" />
 <form:form modelAttribute="nombres" method="POST" action="${calculAction}">
 	<table>
