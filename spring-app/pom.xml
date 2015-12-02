@@ -219,7 +219,7 @@
 	</dependencyManagement>
 
 	<build>
-		<defaultGoal>clean install tomcat7:redeploy</defaultGoal>
+		<defaultGoal>clean install test tomcat7:redeploy</defaultGoal>
 		<plugins>
 
 			<plugin>
@@ -255,7 +255,7 @@
 				<version>2.1</version>
 				<configuration>
 					<port>8585</port>
-					<hostName>localhost</hostName>
+					<hostName>172.19.237.136</hostName>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -265,5 +265,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
